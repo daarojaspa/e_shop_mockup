@@ -1,0 +1,78 @@
+:root{
+  --mostaza: #8E7B38;
+  --rojo: #B22222;
+  --black: #000000;
+  --hueso:  #F0EAD6;
+  --creem: #FAF3E0;
+  --oldGold: #C19A6B;
+  --darkGray:#4B4B4B;
+  --small :0.75 rem;
+  --medium: 1 rem;
+  --large:1.25 rem
+
+}
+.body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.cards-Conteiner{
+  display : grid;
+  grid-template-columns: repeat(auto-fill,240px);
+  gap: 30px;
+    /*tipografia*/
+
+      /*visual*/
+
+        /*otros*/
+}
+.card{
+  /*  */
+/**/
+/*  */
+/*  */
+}
+
+.card_Image{
+  
+width: 240px;
+height: 240px;
+border-radius: 40px;
+object-fit: cover;
+
+}
+.card_Info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info_Name{
+  font-weight:bold;
+  color: #4B4B4B;
+}
+.info_Price{
+  font-weight: bold;
+}
+.primary-Button img {
+  
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+@media (max-width:640px) {
+  .cards-Conteiner{
+    display : grid;
+    grid-template-columns: repeat(auto-fill,140px);
+    gap: 15px;
+          /*otros*/
+  }
+  
+  .card_Image{
+    
+  width: 140px;
+  height: 140px;
+  border-radius: 20px;
+  
+  }
+      
+}
