@@ -1,6 +1,13 @@
 
 :root{
-gi}
+  --mostaza: #8E7B38;
+  --rojo: #B22222;
+  --black: #000000;
+  --hueso:  #F0EAD6;
+  --creem: #FAF3E0;
+  --oldGold: #C19A6B;
+  --darkGray:#4B4B4B;
+}
 
 /*FONTS*/
 .lato-light {
