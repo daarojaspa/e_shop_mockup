@@ -1,0 +1,66 @@
+:root{
+  --mostaza: #8E7B38;
+  --rojo: #B22222;
+  --black: #000000;
+  --hueso:  #F0EAD6;
+  --creem: #FAF3E0;
+  --oldGold: #C19A6B;
+  --darkGray:#4B4B4B;
+  --small :0.75 rem;
+  --medium: 1 rem;
+  --large:1.25 rem
+
+}
+.main{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  place-content: center;
+}
+.title{
+  font-size: var(--large);
+margin-bottom: 30px;
+text-align: center;
+}
+.OrderResume{
+  display: grid;
+  place-self: center;
+  grid-template-columns: auto auto;
+  align-items: center;
+  background-color: var(--creem);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  width:  80%;
+  padding: 0 20px;
+}
+.orderItem{
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 25px;
+align-items: center;
+  list-style: none;
+margin-bottom: 20px;
+}
+.value{
+  color: #4B4B4B;
+  font-size: medium;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 8px 0px 30px 0px;
+}
+
+.card_Image{
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+  
+  }
+.orderResume{
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (max-width:640px) {
+
+}

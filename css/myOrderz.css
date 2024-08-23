@@ -1,0 +1,43 @@
+:root{
+  --mostaza: #8E7B38;
+  --rojo: #B22222;
+  --black: #000000;
+  --hueso:  #F0EAD6;
+  --creem: #FAF3E0;
+  --oldGold: #C19A6B;
+  --darkGray:#4B4B4B;
+  --small :0.75 rem;
+  --medium: 1 rem;
+  --large:1.25 rem
+
+}
+.main{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  place-content: center;
+}
+.title{
+  font-size: var(--large);
+margin-bottom: 30px;
+text-align: center;
+}
+.orderItem{
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  gap:15px;
+align-items: center;
+  list-style: none;
+margin-bottom: 0px;
+}
+.value{
+  color: #4B4B4B;
+  font-size: medium;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 8px 0px 30px 0px;
+}
+
+
+@media (max-width:640px) {
+
+}

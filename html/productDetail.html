@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root{
+  --mostaza: #8E7B38;
+  --rojo: #B22222;
+  --black: #000000;
+  --hueso:  #F0EAD6;
+  --creem: #FAF3E0;
+  --oldGold: #C19A6B;
+  --darkGray:#4B4B4B;
+  --small :0.75 rem;
+  --medium: 1 rem;
+  --large:1.25 rem
+
+}
+.body{
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif
+}
+.productDetail{
+  position: absolute;
+  right: 0px;
+  width: 360px;
+  background-color: var(--hueso);
+}
+.closeButton{
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  z-index: 2;
+  border-radius: 50%;
+  align-self: center;
+}
+.productImg{
+  align-self: center;
+  height: 240px;
+  width: 240px;
+  border-radius: 1rem;
+}   
+.productInfo{
+  
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.title{
+  font-size: var(--large);
+}
+.value{
+  color: var(--darkGray);
+  font-size: var(--large);
+}
+.description{
+  font-size: var(--medium);
+}
+
+.logo{
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  border-radius: 30%;
+}
+.primary-Button{
+  border-radius: 8px;
+  background-color: var(--mostaza);
+  padding: 1.5%;
+}
+@media (max-width:640px){
+.productDetail{
+  width: 100%;
+}
+}
+</style>
+<title>Product Detail</title>
+</head>
+<body>
+  <aside class="productDetail">
+    <div>
+    <img class="productImg" src="../assets/Product.png" alt="mesmereizing product">
+    <button aria-label="close product Detail" class="closeButton">X</button> 
+    </div> 
+    <section class="productInfo">
+      <h5 class="title">beautifull price</h5>
+      <strong><P class="value">our  incredible product: </P></strong>
+      <p class="description">has a description like you will need
+        whith great information so you buy  knowing the product  you need and want
+      </p>
+      <button class="primary-Button"><img class="logo" src="../assets/carLogo.png" alt=""> Add to car</button>
+    </section>
+  </aside>
+</body>
+</html>

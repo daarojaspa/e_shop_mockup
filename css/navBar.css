@@ -1,0 +1,81 @@
+:root {
+  --mostaza: #8E7B38;
+  --rojo: #B22222;
+  --black: #000000;
+  --hueso: #F0EAD6;
+  --creem: #FAF3E0;
+  --oldGold: #C19A6B;
+  --darkGray: #4B4B4B;
+  --small: 0.75 rem;
+  --medium: 1 rem;
+  --large: 1.25 rem
+}
+.logo{
+  place-self: center;
+  height: 50px;
+  width: 50px;
+  padding: 0px;
+}
+.navBar{
+  display: flex;
+  align-items: center;
+}
+.leftNavBar{
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  margin-right: 1rem;
+  align-items: center;
+}
+
+.rightNavBar{
+  align-self: flex-end;
+  display: flex;
+  align-items: end;
+  padding: 0px;
+  list-style: none;
+  
+}
+.menu_Item {
+  font-size: 1rem;
+  margin: 10px 5px 5px 10px;
+  padding: 10px;
+  text-align: center;
+  list-style-type: none;
+  color: black;
+}
+.menu_button{
+  margin-right: 30px;
+  display: none;
+}
+
+.menu_Item a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  
+}
+.email{
+  place-self: center;
+}
+.car{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+@media (max-width:599px) {
+  .menu_button{
+
+    display:inline;
+    place-self: center;
+    height: 10px;
+    width: 10px;
+    border: none;
+  }
+  .leftNavBar{
+    display: none;
+  }
+  .email{
+    display: none;
+  }
+}
